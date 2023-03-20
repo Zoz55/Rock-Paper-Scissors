@@ -29,7 +29,7 @@ function playRound(playerSelection, computerSelection) {
 
 function getRandomChoice() {
   randomNum = Math.floor(Math.random()*3);
-  arr=["rock", "paper", "scissors"];
+  arr=["ROCK", "PAPER", "SCISSORS"];
   return arr[randomNum]; 
 
 }
